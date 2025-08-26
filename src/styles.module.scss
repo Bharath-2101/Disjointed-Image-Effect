@@ -1,0 +1,106 @@
+.MainContainer {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  .Bar {
+    position: relative;
+    z-index: 10;
+    height: 10%;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  .VisualCon {
+    height: 80%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .VisualCol {
+      height: 100%;
+      width: 5%;
+      background: transparent;
+      .VisualColFirst {
+        position: relative;
+        height: 60%;
+        width: 100%;
+        background-color: #ffffff;
+        border-radius: 0px 0px 0px 8px;
+      }
+      .VisualColSecond {
+        position: relative;
+        height: 20%;
+        width: 100%;
+        background-color: #ffffff;
+        transform: translateX(100%);
+        border-radius: 0px 6px;
+      }
+      .VisualColThird {
+        position: relative;
+        height: 20%;
+        width: 100%;
+        background-color: #ffffff;
+        transform: translateX(200%);
+        border-radius: 0px 6px 0px 0px;
+      }
+    }
+  }
+}
+
+.Corner {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  z-index: 10;
+
+  &.top-left {
+    background-image: radial-gradient(
+      circle farthest-side at left bottom,
+      transparent 95%,
+      white 95%
+    );
+    top: 0;
+    left: -8px;
+  }
+  &.top-right {
+    background-image: radial-gradient(
+      circle farthest-side at right bottom,
+      transparent 95%,
+      white 95%
+    );
+    top: 0;
+    right: -8px;
+  }
+  &.bottom-left {
+    background-image: radial-gradient(
+      circle farthest-side at left top,
+      transparent 95%,
+      white 95%
+    );
+    bottom: 0;
+    left: -8px;
+  }
+  &.bottom-right {
+    background-image: radial-gradient(
+      circle farthest-side at right top,
+      transparent 95%,
+      white 95%
+    );
+    bottom: 0;
+    right: -8px;
+  }
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

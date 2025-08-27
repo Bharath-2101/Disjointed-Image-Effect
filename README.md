@@ -1,7 +1,3 @@
----
-title: Disjointed Image Architeture Effect
----
-
 # Disjointed Image Architeture Effect
 
 This is my try for recreating the Hero Section of [Cypher.studio](https://www.cyphr.studio/) which inspired me in a architectural way. So , I thought lets recreate. For, live demo [CLICK HERE](https://disjointed-image-effect.netlify.app/) .

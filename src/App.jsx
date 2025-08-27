@@ -111,7 +111,6 @@ const App = () => {
 
         <div className={styles.Bar}></div>
       </div>
-      <div style={{ height: "100vh" }}></div>
     </>
   );
 };

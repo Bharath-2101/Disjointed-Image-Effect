@@ -1,6 +1,7 @@
 .MainContainer {
   height: 100dvh;
   width: 100dvw;
+  margin-bottom: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -63,6 +64,7 @@
     );
     top: 0;
     left: -8px;
+    transform-origin: right top;
   }
   &.top-right {
     background-image: radial-gradient(
@@ -72,6 +74,7 @@
     );
     top: 0;
     right: -8px;
+    transform-origin: left top;
   }
   &.bottom-left {
     background-image: radial-gradient(
@@ -81,6 +84,7 @@
     );
     bottom: 0;
     left: -8px;
+    transform-origin: right bottom;
   }
   &.bottom-right {
     background-image: radial-gradient(
@@ -90,6 +94,7 @@
     );
     bottom: 0;
     right: -8px;
+    transform-origin: left bottom;
   }
 }
 

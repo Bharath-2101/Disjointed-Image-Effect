@@ -1,12 +1,23 @@
-# React + Vite
+---
+title: Disjointed Image Architeture Effect
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Disjointed Image Architeture Effect
 
-Currently, two official plugins are available:
+This is my try for recreating the Hero Section of [Cypher.studio](https://www.cyphr.studio/) which inspired me in a architectural way. So , I thought lets recreate. For, live demo [CLICK HERE](https://disjointed-image-effect.netlify.app/) .
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+First, run the development server:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
